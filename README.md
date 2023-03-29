@@ -39,4 +39,4 @@ It will use pictures in 'pictures' and output the radiance map, response cureve 
 ## tonemapping
 | global_2002 | local_2002 | global_2005 |
 | :--------------------------: | :-------------------------: | :-------: |
-| ![](tonemapping/global_2002.png) | ![](tonemapping/local_2002.png) | ![](tonemapping/global_2005.png) |
+| ![](tonemapping/global_2002.jpg) | ![](tonemapping/local_2002.jpg) | ![](tonemapping/global_2005.jpg) |
