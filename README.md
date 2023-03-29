@@ -1,6 +1,6 @@
 # VFX Project 1 - HDR Imaging
 
-## 0. Team Members
+## Team Members
 * B09902001 李奕辰
 * B09902071 林峻毅
 
