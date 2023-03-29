@@ -28,3 +28,7 @@ It will use pictures in 'pictures' and output the radiance map, response cureve 
 ### global tonemapping methods in 2002
 
 ### global tonemapping methods in 2005
+
+# Results
+
+![](hdr/radiance_blue.png)
