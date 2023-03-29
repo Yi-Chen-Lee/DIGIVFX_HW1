@@ -31,4 +31,4 @@ It will use pictures in 'pictures' and output the radiance map, response cureve 
 
 # Results
 
-![](hdr/radiance_blue.png)
+![](hdr/radiance_map_blue.png)
