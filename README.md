@@ -33,4 +33,4 @@ It will use pictures in 'pictures' and output the radiance map, response cureve 
 ## Radiance map 
 | Blue | Green | Red |
 | :--------------------------: | :-------------------------: | :-------: |
-| ![](hdr/radiance_map_blue.png) | ![](hdr/radiance_map_green.png) | ![](hdr/radiance_map_Red.png) |
+| ![](hdr/radiance_map_blue.png) | ![](hdr/radiance_map_green.png) | ![](hdr/radiance_map_red.png) |
