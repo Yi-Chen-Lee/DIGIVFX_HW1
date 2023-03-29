@@ -9,7 +9,7 @@
 ```
 python3 hdr.py 
 ```
-It will use pictures in 'pictures' and output the radiance map, response cureve and result.hdr to 'hdr', and the tonemapping results to 'tonemapping'
+## It will use pictures in 'pictures' and output the radiance map, response cureve and result.hdr to 'hdr', and the tonemapping results to 'tonemapping'
 
 # Works
 
