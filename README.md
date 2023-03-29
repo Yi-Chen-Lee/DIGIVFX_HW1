@@ -9,4 +9,22 @@
 ```
 python3 hdr.py 
 ```
-it will use pictures in 'pictures' and output the radiance map, response cureve and result.hdr to 'hdr', and the tonemapping results to 'tonemapping'
+It will use pictures in 'pictures' and output the radiance map, response cureve and result.hdr to 'hdr', and the tonemapping results to 'tonemapping'
+
+# Works
+
+## Image Alignment
+
+### MTB methods
+
+## HDR Reconstruction
+
+### Debevecs methods
+
+## Tone mapping
+
+### local tonemapping methods in 2002
+
+### global tonemapping methods in 2002
+
+### global tonemapping methods in 2005
