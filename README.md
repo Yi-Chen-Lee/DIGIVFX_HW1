@@ -30,5 +30,7 @@ It will use pictures in 'pictures' and output the radiance map, response cureve 
 ### global tonemapping methods in 2005
 
 # Results
-
-![](hdr/radiance_map_blue.png)
+## Radiance map 
+| Blue | Green | Red |
+| :--------------------------: | :-------------------------: | :-------: |
+| ![](hdr/radiance_map_blue.png) | ![](hdr/radiance_map_green.png) | ![](hdr/radiance_map_Red.png) |
