@@ -19,7 +19,7 @@ It will use pictures in 'pictures' and output the radiance map, response cureve 
 
 ## HDR Reconstruction
 
-### Debevecs methods
+### Debevecs methods (with lamdas = 10)
 
 ## Tone mapping
 
