@@ -34,3 +34,9 @@ It will use pictures in 'pictures' and output the radiance map, response cureve 
 | Blue | Green | Red |
 | :--------------------------: | :-------------------------: | :-------: |
 | ![](hdr/radiance_map_blue.png) | ![](hdr/radiance_map_green.png) | ![](hdr/radiance_map_red.png) |
+## Response Curve
+![](hdr/res_curve.png)
+## tonemapping
+| global_2002 | local_2002 | global_2005 |
+| :--------------------------: | :-------------------------: | :-------: |
+| ![](tonemapping_global_2002.png) | ![](tonemapping_local_2002.png) | ![](tonemapping_global_2005.png) |
