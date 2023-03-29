@@ -1,5 +1,7 @@
 from PIL import Image
 import numpy as np
+import os.path as osp
+import os
 
 def ImageShrink2(image):
     # print(image.size)
@@ -86,11 +88,22 @@ def GetExpShift(image1, image2, shift_bits, shift_ret):
                 min_err = err
             # free?
     # free?
-image1 = Image.open("?.jpg") # 這個填第一張照片檔名 (以這張為基準把其他都跟他對齊)
-image1L = image1.convert("L")
-image2 = Image.open("?.jpg") # 這個填第二張照片檔名 (要被shift的對象)
-image2L = image2.convert("L")
-shift_ret = [0, 0]
-GetExpShift(image1L, image2L, 6, shift_ret)
-new_Image2 = image2.transform(image2.size, Image.Transform.AFFINE, data=(1,0,-shift_ret[1],0,1,-shift_ret[0]))
-new_Image2.save("??.jpg") # 這個填第二張照片被shift過後的結果
+images =  []
+dir = 'pictures'
+
+for filename in np.sort(os.listdir(dir)):
+    if osp.splitext(filename)[1] in ['.png', '.jpg']:
+        print(filename)
+        im = Image.open(osp.join(dir, filename))
+        images += [im]
+
+middle_idx = len(images) // 2
+base_image = images[middle_idx].convert("L")
+images[middle_idx].save("./shifted/{0:05d}.jpg".format(middle_idx))
+for i in range(len(images)):
+    if i != middle_idx:
+        target = images[i].convert("L")
+        shift_ret = [0, 0]
+        GetExpShift(base_image, target, 6, shift_ret)
+        shift_image = images[i].transform(images[i].size, Image.Transform.AFFINE, data=(1,0,-shift_ret[1],0,1,-shift_ret[0]))
+        shift_image.save("./shifted/{0:05d}.jpg".format(i))

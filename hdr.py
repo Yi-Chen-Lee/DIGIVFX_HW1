@@ -9,7 +9,7 @@ import math
 
 images =  []
 
-dir = 'pictures'
+dir = 'shifted'
 
 for filename in np.sort(os.listdir(dir)):
     if osp.splitext(filename)[1] in ['.png', '.jpg']:
